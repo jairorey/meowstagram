@@ -1,0 +1,42 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main section {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 480px;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+section h1 {
+  text-align: center;
+}
+
+section img {
+  width: 45px;
+  height: auto;
+}
+
+section button {
+  width: 45px;
+  height: 45px;
+}
+
+div.card{
+  padding: 15px;
+  align-self: center;
+  color: white;
+  background-color: black;
+  max-width: 480px;
+  height: auto;
+}
+
+
+div img {
+  max-width: 480px;
+  height: auto;
+}
